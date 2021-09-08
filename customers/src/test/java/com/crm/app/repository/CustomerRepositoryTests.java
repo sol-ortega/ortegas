@@ -94,6 +94,7 @@ public class CustomerRepositoryTests extends TestCase {
      * Test finding customers by supplying a text that matches one or neither
      * customer and both customers.
      */
+    @Test
     public void testFindCustomersWithTextInName() {
 
         final List<CustomerDto> customers = new ArrayList<CustomerDto>();
